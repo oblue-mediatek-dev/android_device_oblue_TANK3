@@ -13,6 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6895 \
+    fstab.mt6895.vendor_ramdisk
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
