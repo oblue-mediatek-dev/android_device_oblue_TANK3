@@ -75,6 +75,8 @@ TARGET_NO_BOOTLOADER := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/lineage/config/device_framework_matrix.xml
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # 4096 * 64 (pagesize)
