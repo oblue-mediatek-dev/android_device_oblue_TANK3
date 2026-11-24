@@ -31,7 +31,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6895 \
-    fstab.mt6895.vendor_ramdisk
+    fstab.mt6895.vendor_ramdisk \
+    init.recovery.mt6895.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
